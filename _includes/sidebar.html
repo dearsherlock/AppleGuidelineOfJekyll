@@ -1,0 +1,148 @@
+
+
+<div class="col-20 doc-nav-container">
+            <nav id="doc-nav" class="doc-nav" role="navigation" aria-label="Local Navigation" data-hires="true">
+  <ul class="side">
+    <li class="nav-overview"><a href="/watch/human-interface-guidelines/">Overview</a>
+      <ul class="sub-side">
+        <li><a href="#gestures">Gestures</a></li>
+        <li><a href="#force-touch">Force Touch</a></li>
+        <li><a href="#digital-crown">Digital Crown</a></li>
+        <li><a href="#side-button">Side Button</a></li>
+      </ul>
+    </li>
+
+    <li class="nav-app-components"><a href="app-components.html">App Components</a>
+      <ul class="sub-side">
+        <li><a href="#notifications">Notifications</a></li>
+        <li><a href="#glances">Glances</a></li>
+        <li><a href="#watch-apps">Watch Apps</a></li>
+        <li><a href="#complications">Complications</a></li>
+      </ul>
+    </li>
+
+    <li class="nav-navigation"><a href="/watch/human-interface-guidelines/navigation/">Navigation</a>
+      <ul class="sub-side">
+        <li><a href="#fundamental">Fundamental Navigation</a></li>
+        <li><a href="#alerts-action-sheets">Alerts and Action Sheets</a></li>
+        <li><a href="#modal-sheets">Custom Modal Sheets</a></li>
+        <li><a href="#handoff">Handoff</a></li>
+      </ul>
+    </li>
+
+    <li class="nav-visual-design"><a href="/watch/human-interface-guidelines/visual-design/">Visual Design</a>
+      <ul class="sub-side">
+        <li><a href="#display-sizes">Display Sizes</a></li>
+        <li><a href="#layout">Layout</a></li>
+        <li><a href="#color">Color</a></li>
+        <li><a href="#customization">Customization</a></li>
+      </ul>
+    </li>
+
+    <li class="nav-typography"><a href="/watch/human-interface-guidelines/typography/">Typography</a>
+      <ul class="sub-side">
+        <li><a href="#fonts">Fonts</a></li>
+        <li><a href="#built-in-type-styles">Built-In Type Styles</a></li>
+        <li><a href="#dynamic-type">Dynamic Type</a></li>
+        <li><a href="#font-tracking">Font Tracking</a></li>
+      </ul>
+    </li>
+
+    <li class="nav-animation"><a href="/watch/human-interface-guidelines/animation/">Animation</a>
+      <ul class="sub-side">
+        <li><a href="#image-sequences">Animated Image Sequences</a></li>
+        <li><a href="#layout-appearance">Layout and Appearance Animations</a></li>
+      </ul>
+    </li>
+
+    <li class="nav-icons-and-images"><a href="/watch/human-interface-guidelines/icons-and-images/">Icons and Images</a>
+      <ul class="sub-side">
+        <li><a href="#home-screen-icons">Home Screen Icons</a></li>
+        <li><a href="#menu-icons">Menu Icons</a></li>
+        <li><a href="#complication-images">Complication Images</a></li>
+        <li><a href="#image-optimizations">Image Optimizations</a></li>
+      </ul>
+    </li>
+
+    <li class="nav-ui-elements"><a href="/watch/human-interface-guidelines/ui-elements/">Interface Elements</a>
+      <ul class="sub-side">
+        <li><a href="#labels">Labels</a></li>
+        <li><a href="#images">Images</a></li>
+        <li><a href="#groups">Groups</a></li>
+        <li><a href="#pickers">Pickers</a></li>
+        <li><a href="#tables">Tables</a></li>
+        <li><a href="#buttons">Buttons</a></li>
+        <li><a href="#switches">Switches</a></li>
+        <li><a href="#sliders">Sliders</a></li>
+        <li><a href="#maps">Maps</a></li>
+        <li><a href="#movies">Movies</a></li>
+        <li><a href="#date-and-time-labels">Date and Timer Labels</a></li>
+        <li><a href="#menus">Menus</a></li>
+        <li><a href="#activity-rings">Activity Rings</a></li>
+      </ul>
+    </li>
+
+    <li class="nav-watch-technologies"><a href="/watch/human-interface-guidelines/watch-technologies/">Watch Technologies</a>
+      <ul class="sub-side">
+          <li><a href="#haptic-feedback">Haptic Feedback</a></li>
+          <li><a href="#accelerometer">Accelerometer</a></li>
+          <li><a href="#health-and-fitness">Health and Fitness</a></li>
+          <li><a href="#audio-and-video">Audio and Video</a></li>
+      </ul>
+    </li>
+
+    <li class="nav-resources"><a href="/watch/human-interface-guidelines/resources/">Resources</a>
+      <ul class="sub-side">
+        <li><a href="#bezels">Bezels</a></li>
+        <li><a href="#guides">Guides</a></li>
+        <li><a href="#templates">Templates</a></li>
+        <li><a href="#typeface">Typeface</a></li>
+      </ul>
+    </li>
+
+  </ul>
+</nav>
+
+          </div>
+
+
+
+<!-- Target for toggling the sidebar `.sidebar-checkbox` is for regular
+     styles, `#sidebar-checkbox` for behavior. -->
+<!-- <input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox"> -->
+
+<!-- Toggleable sidebar -->
+<!-- <div class="sidebar" id="sidebar">
+  <div class="sidebar-item">
+    <p>{{ site.description }}</p>
+  </div>
+
+  <nav class="sidebar-nav">
+    <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}/">Home</a>
+
+    {% comment %}
+      The code below dynamically generates a sidebar nav of pages with
+      `layout: page` in the front-matter. See readme for usage.
+    {% endcomment %}
+
+    {% assign pages_list = site.pages | sort:"url" %}
+    {% for node in pages_list %}
+      {% if node.title != null %}
+        {% if node.layout == "page" %}
+          <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url }}">{{ node.title }}</a>
+        {% endif %}
+      {% endif %}
+    {% endfor %}
+
+    <a class="sidebar-nav-item" href="{{ site.github.repo }}/archive/v{{ site.version }}.zip">Download</a>
+    <a class="sidebar-nav-item" href="{{ site.github.repo }}">GitHub project</a>
+    <span class="sidebar-nav-item">Currently v{{ site.version }}</span>
+  </nav>
+
+  <div class="sidebar-item">
+    <p>
+      &copy; {{ site.time | date: '%Y' }}. All rights reserved.
+    </p>
+  </div>
+</div>
+ -->
