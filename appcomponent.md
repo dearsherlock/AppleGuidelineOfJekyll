@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Human Interface Guidelines"
+title: "Human Interface Guidelines2"
 pageDescription: "Apple Watch represents a new chapter in the way users relate to technology. It’s the most personal device Apple has ever designed, and it enables new ways to receive information and to interact with apps."
 titleImage: "https://farm8.staticflickr.com/7041/26760580844_abe707e7f9_o.png"
 nextSessionTitle: "App Components"
