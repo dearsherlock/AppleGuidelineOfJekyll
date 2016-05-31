@@ -42,6 +42,27 @@ prose:
             label: "pageDescription"
             element: "text"
             placeholder: "Enter Page Main Description"
+      - name: "titleImage"
+        field:
+            label: "titleImage"
+            element: "text"
+            placeholder: "Enter Page titleImage"
+      - name: "nextSessionTitle"
+        field:
+            label: "nextSessionTitle"
+            element: "text"
+            placeholder: "Enter next Session Title"
+      - name: "nextSessionDescription"
+        field:
+            label: "nextSessionDescription"
+            element: "text"
+            placeholder: "Enter next Session Description"
+      - name: "nextSessionImage"
+        field:
+            label: "nextSessionImage"
+            element: "text"
+            placeholder: "Enter next Session Image"
+
       - name: "title"
         field:
           label: "Title"
