@@ -47,6 +47,11 @@ prose:
             label: "titleImage"
             element: "text"
             placeholder: "Enter Page titleImage"
+      - name: "nextSessionLink"
+        field:
+            label: "nextSessionLink"
+            element: "text"
+            placeholder: "Enter next Session Link"
       - name: "nextSessionTitle"
         field:
             label: "nextSessionTitle"
