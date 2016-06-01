@@ -1,16 +1,19 @@
 ---
 layout: page
-title: "App Components"
-sideNavId: app-components
-pageDescription: "Users interact with your app in four primary ways: viewing notifications, accessing quick information in a glance, viewing complications, and interacting with the app itself."
+sideNavId: "overview"
+title: "Human Interface Guidelines"
+pageDescription: "Apple Watch represents a new chapter in the way users relate to technology. It’s the most personal device Apple has ever designed, and it enables new ways to receive information and to interact with apps."
 titleImage: "https://farm8.staticflickr.com/7041/26760580844_abe707e7f9_o.png"
-nextSessionTitle: "Navigation"
-nextSessionDescription: "Get familiar with the elements you use to build Apple Watch apps"
-nextSessionImage: "https://farm8.staticflickr.com/7224/27387263025_2542aff739_o.png"
+nextSessionLink: "appcomponent"
+nextSessionTitle: "App Components"
+nextSessionDescription: "Read about the components that people use to interact with content on Apple Watch"
+nextSessionImage: "https://farm8.staticflickr.com/7388/27297613941_cc1fdaf32a_o.png"
 
 ---
+
+<!-- INTRO PARAGRAPH -->
                 
-## App Compoent 
+## Lev2
                
 這是內建的圖片，這裡是**粗體**。
 
@@ -21,8 +24,6 @@ nextSessionImage: "https://farm8.staticflickr.com/7224/27387263025_2542aff739_o.
 ![image](https://farm8.staticflickr.com/7312/27099265620_24cc13ef53_o.png)
 
 
-<div id="notifications">
-</div>
      
 
 
@@ -130,113 +131,7 @@ d
 w
 <p/>
 
-
-
-<p/>
-d
-<p/>
-d
-<p/>
-d
-<p/>
-w
-<p/>
-d
-<p/>
-d
-<p/>
-d
-<p/>
-w
-<p/>
-d
-<p/>
-d
-<p/>
-d
-<p/>
-w
-<p/>
-
-<p/>
-d
-<p/>
-d
-<p/>
-d
-<p/>
-w
-<p/>
-d
-<p/>
-d
-<p/>
-d
-<p/>
-w
-<p/>
-d
-<p/>
-d
-<p/>
-d
-<p/>
-w
-<p/>
-
-<p/>
-d
-<p/>
-d
-<p/>
-d
-<p/>
-w
-<p/>
-d
-<p/>
-d
-<p/>
-d
-<p/>
-w
-<p/>
-d
-<p/>
-d
-<p/>
-d
-<p/>
-w
-<p/>
-
-<p/>
-d
-<p/>
-d
-<p/>
-d
-<p/>
-w
-<p/>
-d
-<p/>
-d
-<p/>
-d
-<p/>
-w
-<p/>
-d
-<p/>
-d
-<p/>
-d
-<p/>
-w
-<p/>
-
-<div  id="glances" >
+<div id="gestures">
 </div>
 
 
@@ -344,7 +239,7 @@ d
 w
 <p/>
 
-<div  id="watch-apps">
+<div  id="force-touch" >
 </div>
 
 
@@ -452,7 +347,7 @@ d
 w
 <p/>
 
-<div  id="complications">
+<div  id="digital-crown">
 </div>
 
 
@@ -560,6 +455,116 @@ d
 w
 <p/>
 
+<div  id="side-button">
+</div>
+
+
+<p/>
+d
+<p/>
+d
+<p/>
+d
+<p/>
+w
+<p/>
+d
+<p/>
+d
+<p/>
+d
+<p/>
+w
+<p/>
+d
+<p/>
+d
+<p/>
+d
+<p/>
+w
+<p/>
+
+<p/>
+d
+<p/>
+d
+<p/>
+d
+<p/>
+w
+<p/>
+d
+<p/>
+d
+<p/>
+d
+<p/>
+w
+<p/>
+d
+<p/>
+d
+<p/>
+d
+<p/>
+w
+<p/>
+
+<p/>
+d
+<p/>
+d
+<p/>
+d
+<p/>
+w
+<p/>
+d
+<p/>
+d
+<p/>
+d
+<p/>
+w
+<p/>
+d
+<p/>
+d
+<p/>
+d
+<p/>
+w
+<p/>
+
+<p/>
+d
+<p/>
+d
+<p/>
+d
+<p/>
+w
+<p/>
+d
+<p/>
+d
+<p/>
+d
+<p/>
+w
+<p/>
+d
+<p/>
+d
+<p/>
+d
+<p/>
+w
+<p/>
+
+<div  id="helloAnchor">
+</div>
 
 
 <p/>

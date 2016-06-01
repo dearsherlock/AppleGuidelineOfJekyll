@@ -82,12 +82,14 @@
 			$(images).each(function() {
 				original = this.src;
 				dot = original.lastIndexOf('.');
+				isFlickr=original.indexOf("staticflickr.")>0;
 				filetype = original.substr((~-dot >>> 0) + 2);
 				filename = original.substring(original.lastIndexOf('/') + 1, dot);
 				is_retina = filename.slice($.retinate.retina_tag.length * -1) == $.retinate.retina_tag;
 				
 				if(!is_retina && $.inArray(filetype, $.retinate.image_types) > -1) {
 					retina = original.substr(0, dot) + $.retinate.retina_tag + '.' + filetype;
+					if(isFlickr){retina= original.substr(0, dot)+ '.' + filetype;}
 					$(this).attr('src', retina).attr('data-' + $.retinate.data_tag + '-status', $.retinate.status_replaced);
 				}
 			});

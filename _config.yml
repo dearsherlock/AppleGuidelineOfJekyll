@@ -37,6 +37,11 @@ prose:
           element: "hidden"
           label: "Layout"
           value: "post"
+      - name: "sideNavId"
+        field:
+            label: "sideNavId"
+            element: "text"
+            placeholder: "Enter Page sideNavId"
       - name: "pageDescription"
         field:
             label: "pageDescription"
