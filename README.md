@@ -18,3 +18,9 @@ Google 的Meterial Design Guide也不錯。
 
 目前Git上放的第一版已經是html版使用jekyll templtate改的，但缺點是要在md檔案裡面編輯html，更麻煩。
 下一版會把有些資料抽出來，讓md檔案專心於內容就好。
+
+
+
+### 20160601更新
+已經可以把左邊的navigation對應顯示正確。
+MD檔也可以正常使用。
